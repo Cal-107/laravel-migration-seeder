@@ -20,7 +20,7 @@ class CreateListTable extends Migration
             $table->tinyInteger('flight_hours');
             $table->string('departure', 20);
             $table->string('arrival', 20);
-            $table->boolean('shuttle_service', 80);
+            $table->boolean('shuttle_service');
             $table->boolean('hotel');
             $table->unsignedTinyInteger('price');
             $table->timestamps();
